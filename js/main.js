@@ -2,7 +2,7 @@
 	$("#submit").click(function () {
 				var cityname=$('#city-name').val();
 				$('#result1').html('');
-				$('#result1').append(cityname);	
+				$('#result1').html(cityname);	
               	getData();
             });	
 	
@@ -29,18 +29,12 @@
 
 			var cityname=$('#city-name').val();
 
-			$('#result2').html('');
-			$('#result2').append((data.main.temp).toFixed(2));
-			$('#result3').html('');
-			$('#result3').append(data.weather[0].main);
-			$('#result4').html('');
-			$('#result4').append(data.weather[0].description);
-			$('#result5').html('');
-			$('#result5').append(data.wind.speed);
-			$('#result6').html('');
-			$('#result6').append(data.main.humidity);
-			$('#result7').html('');
-			$('#result7').append(data.main.pressure);
+			$('#result2').html((data.main.temp).toFixed(2));
+			$('#result3').html(data.weather[0].main);
+			$('#result4').html(data.weather[0].description);
+			$('#result5').html(data.wind.speed);
+			$('#result6').html(data.main.humidity);
+			$('#result7').html(data.main.pressure);
 		}
 	}
 
