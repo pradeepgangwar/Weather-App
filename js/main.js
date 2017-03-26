@@ -37,14 +37,3 @@
 			$('#result7').html(data.main.pressure);
 		}
 	}
-
-			/*return 		"<div class='pressure'> <p>Temperature: " + (data.main.temp).toFixed(2) + " C</p></div>"+
-		                "<div class='description'> <p>Weather: " + data.weather[0].main + "</p></div>" +
-		                "<div class='description'> <p>Weather Description: " + data.weather[0].description + "</p></div>" +
-		                "<div class='wind'> <p>Wind Speed: " + data.wind.speed + "</p></div>" +
-		                "<div class='humidity'> <p>Humidity: " + data.main.humidity + "%</p></div>" +
-		                "<div class='pressure'> <p>Pressure: " + data.main.pressure + " hpa</p></div>";
-		}*/
-
-		
-

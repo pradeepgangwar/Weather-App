@@ -12,37 +12,217 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
-#submit{
-	margin-left: 210px;
-	text-align: center;
-	float: none;
+
+@media only screen and (max-width: 1500px) {
+	#submit{
+		margin-left: 210px;
+		text-align: center;
+		float: none;
+	}
 }
-#collection{
-	margin-right: 290px;
-	margin-left: 310px;
-	margin-top: 62px;
+@media only screen and (max-width: 1200px) {
+	#submit{
+		margin-left: 160px;
+		text-align: center;
+		float: none;
+	}
 }
-#result1{
-	float: right;
+@media only screen and (max-width: 1000px) {
+	#submit{
+		margin-left: 100px;
+		text-align: center;
+		float: none;
+	}
 }
-#result2{
-	float: right;
+@media only screen and (max-width: 700px) {
+	#submit{
+		margin-left: 10px;
+		text-align: center;
+		float: none;
+	}
 }
-#result3{
-	float: right;
+@media only screen and (max-width: 400px) {
+	#submit{
+		margin-left: 0px;
+		text-align: center;
+		float: none;
+	}
 }
-#result4{
-	float: right;
+
+@media only screen and (max-width: 1500px) {
+
+	#collection{
+		margin-right: 290px;
+		margin-left: 310px;
+		margin-top: 62px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
+	}
 }
-#result5{
-	float: right;
+
+@media only screen and (max-width: 1200px) {
+
+	#collection{
+		margin-right: 240px;
+		margin-left: 250px;
+		margin-top: 62px;
+	}
+	#collection a{
+		padding: 10px 100px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
+	}
 }
-#result6{
-	float: right;
+
+@media only screen and (max-width: 1000px) {
+
+	#collection{
+		margin-right: 160px;
+		margin-left: 190px;
+		margin-top: 62px;
+	}
+	#collection a{
+		padding: 10px 60px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
+	}
 }
-#result7{
-	float: right;
+
+@media only screen and (max-width: 700px) {
+
+	#collection{
+		margin-right: 40px;
+		margin-left: 80px;
+		margin-top: 62px;
+	}
+	#collection a{
+		padding: 10px 30px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
+	}
 }
-#C{
-	float: right;
+
+@media only screen and (max-width: 400px) {
+
+	#collection{
+		margin-right: 30px;
+		margin-left: 30px;
+		margin-top: 62px;
+	}
+	#collection a{
+		padding: 10px 10px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
+	}
 }
+
