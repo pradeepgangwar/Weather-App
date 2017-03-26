@@ -12,7 +12,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-<body background="1.jpg">
+<body background="img/1.jpg">
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
@@ -29,7 +29,7 @@
         <div class="input-field col s6 offset-s3">
           <input id="city-name" type="text">
           <label>City Name</label>
-          <button class="btn waves-effect waves-light" type="submit" id="submit" onclick="getData()">Submit
+          <button class="btn waves-effect waves-light" type="submit" id="submit" >Submit
     			<i class="material-icons right">send</i>
   		  </button>
         </div>
@@ -46,42 +46,9 @@
   crossorigin="anonymous"></script> 
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/main.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script>
-		
-	function getData(){
-		var apikey= '4905e99ced7c4fa6a603bfd61571bf07';
-		var cityname=$('#city-name').val()
-
-		$.ajax({
-					url: 'http://api.openweathermap.org/data/2.5/weather?q=' + cityname + "&units=metric" + "&APPID=4905e99ced7c4fa6a603bfd61571bf07",
-					type: "GET",
-					dataType: "jsonp",
-					success: function(data){
-						var values = show(data);
-
-						$("#show").html(values); 
-						$("#city-name").val('');
-					}
-
-				});
-
-		function show(data)
-		{
-			return "<div class='pressure'> <p>Temperature: " + (data.main.temp).toFixed(2) + " C</p></div>"+
-		                "<div class='description'> <p>Title: " + data.weather[0].main + "</p></div>" +
-		                "<div class='description'> <p>Description: " + data.weather[0].description + "</p></div>" +
-		                "<div class='wind'> <p>Wind Speed: " + data.wind.speed + "</p></div>" +
-		                "<div class='humidity'> <p>Humidity: " + data.main.humidity + "%</p></div>" +
-		                "<div class='pressure'> <p>Pressure: " + data.main.pressure + " hpa</p></div>";
-		}
-
-		}
-
-	</script>
-
-
 
   </body>
 </html>
