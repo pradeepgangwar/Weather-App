@@ -12,3 +12,8 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+#submit{
+	margin-left: 100px;
+	text-align: center;
+	float: none;
+}
