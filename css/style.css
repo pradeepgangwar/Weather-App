@@ -13,7 +13,36 @@
 	font-size: inherit;
 }
 #submit{
-	margin-left: 240px;
+	margin-left: 210px;
 	text-align: center;
 	float: none;
+}
+#collection{
+	margin-right: 290px;
+	margin-left: 310px;
+	margin-top: 62px;
+}
+#result1{
+	float: right;
+}
+#result2{
+	float: right;
+}
+#result3{
+	float: right;
+}
+#result4{
+	float: right;
+}
+#result5{
+	float: right;
+}
+#result6{
+	float: right;
+}
+#result7{
+	float: right;
+}
+#C{
+	float: right;
 }

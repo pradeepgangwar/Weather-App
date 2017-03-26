@@ -1,6 +1,7 @@
 
 	$("#submit").click(function () {
-				console.log("hi");	
+				var cityname=$('#city-name').val();
+				$('#result1').append(cityname);	
               	getData();
             });	
 	
@@ -27,14 +28,22 @@
 
 			var cityname=$('#city-name').val();
 
-			return 		"<div class='city-name'><p> City name: " + $("#city-name").val() + "</p></div>"+
-						"<div class='pressure'> <p>Temperature: " + (data.main.temp).toFixed(2) + " C</p></div>"+
+			$('#result2').append((data.main.temp).toFixed(2));
+			$('#result3').append(data.weather[0].main);
+			$('#result4').append(data.weather[0].description);
+			$('#result5').append(data.wind.speed);
+			$('#result6').append(data.main.humidity);
+			$('#result7').append(data.main.pressure);
+		}
+	}
+
+			/*return 		"<div class='pressure'> <p>Temperature: " + (data.main.temp).toFixed(2) + " C</p></div>"+
 		                "<div class='description'> <p>Weather: " + data.weather[0].main + "</p></div>" +
 		                "<div class='description'> <p>Weather Description: " + data.weather[0].description + "</p></div>" +
 		                "<div class='wind'> <p>Wind Speed: " + data.wind.speed + "</p></div>" +
 		                "<div class='humidity'> <p>Humidity: " + data.main.humidity + "%</p></div>" +
 		                "<div class='pressure'> <p>Pressure: " + data.main.pressure + " hpa</p></div>";
-		}
+		}*/
 
-		}
+		
 
