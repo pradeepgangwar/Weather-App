@@ -12,7 +12,13 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
-
+@media only screen and (max-width: 1800px) {
+	#submit{
+		margin-left: 240px;
+		text-align: center;
+		float: none;
+	}
+}
 @media only screen and (max-width: 1500px) {
 	#submit{
 		margin-left: 210px;
@@ -46,6 +52,38 @@
 		margin-left: 0px;
 		text-align: center;
 		float: none;
+	}
+}
+
+@media only screen and (max-width: 1800px) {
+	#collection{
+		margin-right: 340px;
+		margin-left: 370px;
+		margin-top: 62px;
+	}
+	#result1{
+		float: right;
+	}
+	#result2{
+		float: right;
+	}
+	#result3{
+		float: right;
+	}
+	#result4{
+		float: right;
+	}
+	#result5{
+		float: right;
+	}
+	#result6{
+		float: right;
+	}
+	#result7{
+		float: right;
+	}
+	#C{
+		float: right;
 	}
 }
 
