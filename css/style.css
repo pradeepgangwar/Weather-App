@@ -60,6 +60,9 @@
 		margin-right: 340px;
 		margin-left: 370px;
 		margin-top: 62px;
+    border: 10px;
+    border-radius: 15px black;
+    box-shadow: 5px 10px 15px blue;
 	}
 	#result1{
 		float: right;
@@ -263,4 +266,3 @@
 		float: right;
 	}
 }
-
