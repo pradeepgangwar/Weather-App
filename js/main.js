@@ -12,7 +12,7 @@
 		var cityname=$('#city-name').val();
 
 		$.ajax({
-					url: 'http://api.openweathermap.org/data/2.5/weather?q=' + cityname + "&units=metric" + "&APPID=4905e99ced7c4fa6a603bfd61571bf07",
+					url: 'https://api.openweathermap.org/data/2.5/weather?q=' + cityname + "&units=metric" + "&APPID=4905e99ced7c4fa6a603bfd61571bf07",
 					type: "GET",
 					dataType: "jsonp",
 					success: function(data){
